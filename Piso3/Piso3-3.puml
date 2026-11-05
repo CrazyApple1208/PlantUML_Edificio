@@ -1,0 +1,7 @@
+@startuml 4.3
+[*] --> Vivo
+Vivo --> Herido : recibirDano
+Herido --> Vivo : curar
+Herido --> Caido : vida = 0
+Caido --> [*]
+@enduml
