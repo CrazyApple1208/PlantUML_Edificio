@@ -1,0 +1,10 @@
+@startuml 3.4
+package modelo {
+  class Personaje
+  class Item
+}
+package combate {
+  class ArenaCombate
+}
+combate ..> modelo
+@enduml
